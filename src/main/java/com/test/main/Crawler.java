@@ -1,16 +1,17 @@
-package com.test.main;
+package com.ant.main;
 
+import com.ant.pageprocessor.HousePageProcessor;
 import us.codecraft.webmagic.Spider;
-
-import com.test.pageprocessor.ColumnPageprocessor;
-import com.test.pipeline.ColumnPipeline;
+import com.ant.pipeline.HousePipeline;
 
 public class Crawler {
 
 	public static void main(String[] args) {
 		
-		Spider.create(new ColumnPageprocessor())
-				.addUrl("http://www.baidu.com")
-				.addPipeline(new ColumnPipeline()).thread(1).run();
+		Spider.create(new HousePageProcessor())
+				.addUrl("http://sh.fang.lianjia.com/")
+				.addPipeline(new HousePipeline())
+				.thread(1)
+				.run();
 	}
 }

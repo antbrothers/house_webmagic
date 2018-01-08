@@ -1,6 +1,6 @@
-package com.test.dao;
+package com.ant.dao;
 
-import com.test.model.BaiDuColumn;
+import com.ant.model.BaiDuColumn;
 
 public interface ColumnDao {
 	

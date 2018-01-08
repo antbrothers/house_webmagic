@@ -4,10 +4,11 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 <typeAliases>
-		<typeAlias type="com.test.model.BaiDuColumn" alias="aliasesBaiDuColumn"></typeAlias>
+	<typeAlias type="com.ant.model.BaiDuColumn" alias="aliasesBaiDuColumn"></typeAlias>
+	<typeAlias type="com.ant.model.house.Areas" alias="houseAreas"></typeAlias>
 </typeAliases>
-
 	<mappers>
-		<mapper resource="BaiduColumn.xml" />
-	</mappers>	
+		<mapper resource="mappers/BaiduColumn.xml"></mapper>
+		<mapper resource="mappers/Areas.xml"></mapper>
+	</mappers>
 </configuration>

@@ -1,10 +1,10 @@
-package com.test.pageprocessor;
+package com.ant.pageprocessor;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.test.model.BaiDuColumn;
+import com.ant.model.BaiDuColumn;
 
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;

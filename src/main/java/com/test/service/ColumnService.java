@@ -1,6 +1,6 @@
-package com.test.service;
+package com.ant.service;
 
-import com.test.model.BaiDuColumn;
+import com.ant.model.BaiDuColumn;
 
 public interface ColumnService {
 

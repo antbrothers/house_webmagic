@@ -1,4 +1,4 @@
-package com.test.pipeline;
+package com.ant.pipeline;
 
 import java.util.ArrayList;
 
@@ -9,8 +9,8 @@ import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.pipeline.Pipeline;
 
-import com.test.model.BaiDuColumn;
-import com.test.service.ColumnService;
+import com.ant.model.BaiDuColumn;
+import com.ant.service.ColumnService;
 
 
 public class ColumnPipeline implements Pipeline {
