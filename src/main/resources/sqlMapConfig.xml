@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<typeAliases>
+	<typeAlias type="com.ant.model.house.Areas" alias="houseAreas"></typeAlias>
+	<typeAlias type="com.ant.model.house.Houses" alias="housesModel"></typeAlias>
+</typeAliases>
+	<mappers>
+		<mapper resource="mappers/Areas.xml"></mapper>
+		<mapper resource="mappers/Houses.xml"></mapper>
+	</mappers>
+</configuration>
